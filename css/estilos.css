@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap')
+;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+
+body 
+{
+    
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px 20px;
+    border-radius: 15px;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+            box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+  }
+  body.dark nav {
+    background: #420101;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+  }
+  
+  body{
+    background-image: url(/posters/fondonegro.png);
+
+  }
+
+  body .dark nav a {
+    color: #000000;
+    background-image: url(/posters/fondonegro.png);
+  }
+  
+  body.dark nav a:hover {
+    color: #531b1b;
+    background-image: url(/posters/fondo.png);
+  }
+  
+  nav{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  nav .enlaces {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  nav .enlaces a {
+    margin-right: 40px;
+  }
+  
+  nav .enlaces a:hover {
+    color: #707070;
+  }
+
+h1, h2, h3 
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1
+{
+    font-size: 90px;
+    font-weight: 900;
+    font-stretch: wider;
+}
+
